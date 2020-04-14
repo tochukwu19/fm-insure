@@ -1,0 +1,54 @@
+.hero {
+    height: 90vh;
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+}
+
+.hero-one,
+.hero-two {
+    width: 40%;
+}
+
+.hero-two img {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.hero-container {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    width: 100px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 1;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+a {
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.pattern {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    z-index: 6;
+    height: 400px;
+}
