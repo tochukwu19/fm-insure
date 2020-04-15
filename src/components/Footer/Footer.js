@@ -5,7 +5,6 @@ import Facebook from '../../assets/images/icon-facebook.svg';
 import Twitter from '../../assets/images/icon-twitter.svg';
 import Pinterest from '../../assets/images/icon-pinterest.svg';
 import Instagram from '../../assets/images/icon-instagram.svg';
-import svgF from '../../assets/images/bg-pattern-footer-desktop.svg';
 
 const Footer = () => {
   return (
@@ -23,7 +22,6 @@ const Footer = () => {
           </div>
         </div>
         <hr className="footHr"></hr>
-        <img src={svgF} alt="new svg" className="svgF"/>
         <div className="footmenus">
           <div className="footmenu">
             <h3>Our company</h3>
