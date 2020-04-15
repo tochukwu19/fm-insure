@@ -1,4 +1,4 @@
-.story{
+.story {
     height: 90vh;
     width: 100%;
     display: flex;
@@ -6,17 +6,18 @@
     justify-content: center;
 }
 
-.story-container{
+.story-container {
     width: 80%;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-around;
 }
 
-.thesvg{
+.thesvg {
     position: absolute;
     left: 0;
-    top: 500px;
+    height: 400px;
+    top: 550px;
 }
