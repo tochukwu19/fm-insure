@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const layout = (props) => {
   return (
@@ -10,6 +11,7 @@ const layout = (props) => {
       <div>
         {props.children}
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

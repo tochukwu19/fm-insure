@@ -1,0 +1,28 @@
+.hww{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hww-container{
+    width: 80%;
+    height: 200px;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hwww{
+    width: 50%;
+}
+
+.svgH{
+    position: absolute;
+    right: 150px;
+    top: 1556px;
+    height: 200px;
+}
