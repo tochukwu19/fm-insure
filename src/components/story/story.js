@@ -7,12 +7,15 @@ import Spsvg from '../../assets/images/icon-snappy-process.svg';
 import Apsvg from '../../assets/images/icon-affordable-prices.svg';
 import Pfsvg from '../../assets/images/icon-people-first.svg';
 import svg from '../../assets/images/bg-pattern-intro-left-desktop.svg';
+import svg2 from '../../assets/images/bg-pattern-intro-right-mobile.svg';
+
 
 const story = () => {
   return (
     <React.Fragment>
       <div className="story">
-        <img src={svg} className="thesvg"/>
+        <img src={svg} className="thesvg" />
+        <img src={svg2} className="thesvg2" />
         <div className="story-container">
           <hr></hr>
           <h1>We're different</h1>

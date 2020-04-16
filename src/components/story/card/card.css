@@ -5,3 +5,10 @@
 p{
     color: hsl(216, 30%, 68%);
 }
+
+@media only screen and (max-width: 700px){
+    .card{
+        width: 100%;
+        text-align: center;
+    }
+}

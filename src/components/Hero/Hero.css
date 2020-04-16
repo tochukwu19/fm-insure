@@ -18,11 +18,25 @@
     max-width: 100%;
 }
 
+.hero-mob{
+    display: none;
+    height: 300px;
+    width: 100%;
+    background-image: url("../../assets/images/image-intro-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .hero-container {
     height: inherit;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url('../../assets/images/bg-pattern-intro-right-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+    background-position: top right;
 }
 
 hr {
@@ -46,10 +60,33 @@ a {
     padding: 10px;
 }
 
-.pattern {
+a:hover{
+    color: hsl(256, 26%, 20%);
+    background-color: #fff;
+}
+
+/* .pattern {
     position: absolute;
     top: 80px;
     right: 0px;
     z-index: 6;
     height: 400px;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .hero-two {
+        display: none;
+    }
+    .hero-one{
+        width: 80%;
+    }
+    .hero-mob{
+        display: block;
+    }
+    .hero-container{
+            background-image: url('../../assets/images/bg-pattern-intro-left-mobile.svg');
+            background-position: top left;
+            background-size:30% 35%;
+    }
 }

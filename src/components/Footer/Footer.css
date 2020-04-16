@@ -49,3 +49,30 @@
     bottom: -1400px;
 
 }
+
+@media only screen and (max-width: 700px) {
+    .footer-head {
+        flex-direction: column;
+    }
+
+    .footer-head img {
+        margin-bottom: 10px;
+    }
+
+    .footmenus {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        height: auto;
+        background-image: url("../../assets/images/bg-pattern-footer-mobile.svg");
+    }
+
+    .footer-container {
+        height: auto;
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
