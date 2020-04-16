@@ -7,7 +7,6 @@ nav {
     align-items: center;
     font-family: 'Karla',
         sans-serif;
-
 }
 
 .nav-container {
@@ -15,6 +14,9 @@ nav {
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    height: inherit;
+    background-color: #fff;
+    z-index: 5;
 }
 
 .nav-container li {
@@ -36,6 +38,7 @@ nav {
     display: flex;
 }
 
+
 .btn {
     padding: 10px;
     color: hsl(256, 26%, 20%) !important;
@@ -47,15 +50,58 @@ nav {
     color: #fff !important;
 }
 
-.hamburger{
+.hamburger {
     display: none;
+    z-index: 5;
+}
+
+.mobileNav {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    position: absolute;
+    z-index: 3;
+    transition: 0.7s ease-in;
+    background-image: url("../../assets/images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mmenu {
+    text-align: center;
+    height: 200px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileNav li {
+    list-style-type: none;
+}
+
+.mobileNav a {
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.mobileNav a:hover{
+    background-color: transparent !important;
+    border: 1px solid #fff;
 }
 
 @media only screen and (max-width: 800px) {
-    .menu{
+    .menu {
         display: none;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
     }
 }
