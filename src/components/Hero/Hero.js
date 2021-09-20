@@ -18,7 +18,7 @@ const Hero = () => {
               expertise and technology to help you find the plan that’s right for
               you. Ensure you and your loved ones are protected.
             </p>
-            <a href=".">View plans</a>
+            <a href="." id="whiteLink">View plans</a>
           </div>
           <div className="hero-two">
             <img src={heroImage} alt="hero" />

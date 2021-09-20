@@ -9,7 +9,7 @@ const Hww = () => {
           <h1>Find out more about how we work</h1>
         </div>
         <div>
-          <a href=".">How we work</a>
+          <a id="whiteLink" href=".">How we work</a>
         </div>
       </div>
     </div>

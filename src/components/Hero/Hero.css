@@ -58,7 +58,14 @@ a {
     border: 1px solid #fff;
     text-decoration: none;
     padding: 10px;
-    color: #fff;
+}
+
+#whiteLink{
+    color: #fff !important;
+}
+
+#whiteLink:hover{
+    color: hsl(256, 26%, 20%) !important;
 }
 
 a:hover{
