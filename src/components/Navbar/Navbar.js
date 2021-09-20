@@ -16,10 +16,10 @@ class Navbar extends Component {
         <div className="nav-container">
           <div className="logo"><img src={logo} alt="logo"/></div>
           <div className="menu">
-            <li><a>How we work</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Account</a></li>
-            <li><a className="btn">View plans</a></li>
+            <li><a href=".">How we work</a></li>
+            <li><a href=".">Blog</a></li>
+            <li><a href=".">Account</a></li>
+            <li><a href="." className="btn">View plans</a></li>
           </div>
           <div className="hamburger" onClick={() => this.setState((prevState) => ({ navout: !prevState.navout}))}>
             { !this.state.navout ? <img src={ham} alt="hamburger" className="ham" /> : <img src={close} alt="hamburgerClose" className="hamC" />}
@@ -29,10 +29,10 @@ class Navbar extends Component {
           transform: this.state.navout ? "translateY(50%)" : "translateY(-100%)"
         }}>
           <div className="Mmenu">
-            <li><a>How we work</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Account</a></li>
-            <li><a className="btn">View plans</a></li>
+            <li><a href=".">How we work</a></li>
+            <li><a href=".">Blog</a></li>
+            <li><a href=".">Account</a></li>
+            <li><a href="." className="btn">View plans</a></li>
           </div>
         </div>
       </nav>

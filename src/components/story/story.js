@@ -14,8 +14,8 @@ const story = () => {
   return (
     <React.Fragment>
       <div className="story">
-        <img src={svg} className="thesvg" />
-        <img src={svg2} className="thesvg2" />
+        <img alt="Svg" src={svg} className="thesvg" />
+        <img alt="Svg2" src={svg2} className="thesvg2" />
         <div className="story-container">
           <hr></hr>
           <h1>We're different</h1>
